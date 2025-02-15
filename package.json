@@ -1,8 +1,11 @@
 {
   "name": "valet-back",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +19,8 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.12.0",
-    "sequelize": "^6.37.5"
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
